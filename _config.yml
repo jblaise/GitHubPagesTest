@@ -2,7 +2,7 @@ name: GitHub Pages Test
 markdown: kramdown
 kramdown:
   syntax_highlighter: rouge
-permalink: /:categories/:slug
+baseurl: "/GitHubPagesTest"
 collections:
     animals:
         output: true
