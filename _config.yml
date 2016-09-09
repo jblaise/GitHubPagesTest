@@ -1,0 +1,18 @@
+name: GitHub Pages Test
+markdown: kramdown
+kramdown:
+  syntax_highlighter: rouge
+permalink: /:categories/:slug
+collections:
+    animals:
+        output: true
+        mammals:
+            output: true
+            cats:
+                output: true
+            dogs:
+                output: true
+        reptiles:
+            output: true
+            lizards:
+                output: true
