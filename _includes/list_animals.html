@@ -6,7 +6,7 @@
 	{% if animal.url contains "index" or animal.url == page.url %}
 	{% else %}
 	    {% if animal.url contains from  and (include.dig or deep == d) %}
-	    <a  href={{ animal.url | prepend: site.baseurl }}>{{animal.title}}</a>
+	    <p><a  href={{ animal.url | prepend: site.baseurl }}>{{animal.title}}</a> {{animal.thumbnail}}</p>
 	    {% endif %}
 	{% endif %}
 {% endfor %}
