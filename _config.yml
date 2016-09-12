@@ -3,6 +3,7 @@ markdown: kramdown
 kramdown:
   syntax_highlighter: rouge
 baseurl: "/GitHubPagesTest"
+permalink: /:categories/:slug
 collections:
     animals:
         output: true
